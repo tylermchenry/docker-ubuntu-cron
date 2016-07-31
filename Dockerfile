@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER Raphael Zimmermann <mister.norbert@gmail.com>
+MAINTAINER Tyler McHenry <tyler.mchenry@gmail.com>
 
 # Install cron and supervisor
 RUN apt-get update

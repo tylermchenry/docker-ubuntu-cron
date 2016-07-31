@@ -1,6 +1,8 @@
-# Docker [raphiz/ubuntu-cron](https://registry.hub.docker.com/u/raphiz/ubuntu-cron)
+# Docker [tylermchenry/ubuntu-cron-curl](https://registry.hub.docker.com/u/tylermchenry/ubuntu-cron-curl)
 
-Ubuntu latest with cron, powerd by supervisor.
+Forked from [raphiz/ubuntu-cron-curl](https://registry.hub.docker.com/u/raphiz/ubuntu-cron)
+
+Ubuntu latest with cron and curl, powerd by supervisor.
 
 You can easily replace the default `/etc/crontab` with one that suits your needs.
 The image will log the syslog into stdout which makes it easy for you to

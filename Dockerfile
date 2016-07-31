@@ -6,6 +6,7 @@ MAINTAINER Tyler McHenry <tyler.mchenry@gmail.com>
 RUN apt-get update
 RUN apt-get install cron -yqq
 RUN apt-get install supervisor -yqq
+RUN apt-get install rsyslog -yqq
 RUN apt-get install curl -yqq
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf

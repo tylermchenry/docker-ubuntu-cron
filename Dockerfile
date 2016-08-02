@@ -8,6 +8,9 @@ RUN apt-get install cron -yqq
 RUN apt-get install supervisor -yqq
 RUN apt-get install rsyslog -yqq
 RUN apt-get install curl -yqq
+RUN apt-get install run-one -yqq
+RUN apt-get install ssh -yqq
+RUN apt-get install rsync -yqq
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 

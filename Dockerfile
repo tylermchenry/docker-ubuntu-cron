@@ -13,6 +13,7 @@ RUN apt-get install ssh -yqq
 RUN apt-get install rsync -yqq
 RUN apt-get install inotify-tools -yqq
 RUN apt-get install ffmpeg -yqq
+RUN apt-get install ttf-dejavu -yqq
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 

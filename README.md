@@ -2,6 +2,8 @@
 
 Forked from [raphiz/ubuntu-cron-curl](https://registry.hub.docker.com/u/raphiz/ubuntu-cron)
 
+**This is for my personal tinkering. Please don't expect anything stable out of it.**
+
 Ubuntu latest with cron and curl, powerd by supervisor.
 
 You can easily replace the default `/etc/crontab` with one that suits your needs.
